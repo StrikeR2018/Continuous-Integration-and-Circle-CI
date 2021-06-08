@@ -16,3 +16,4 @@ class TestCalculatorAPP:
 
     def test_divide(self):
         assert 2 == calculator.divide(16, 8)
+# This is a new line that ends the file.
