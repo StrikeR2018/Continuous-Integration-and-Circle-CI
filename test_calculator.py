@@ -6,17 +6,13 @@ import calculator
 
 class TestCalculatorAPP:
     def test_add(self):
-        assert 7 == calculator.add(3, 4)
+        assert 5 == calculator.add(2, 3)
 
     def test_subtract(self):
-        assert 2 == calculator.subtract(4, 6)
+        assert 5 == calculator.subtract(8, 3)
 
-    def test_mulityply(self):
-        assert 12 == calculator.mulityply(3, 4)
+    def test_mul(self):
+        assert 15 == calculator.mulityply(3, 5)
 
-    def test_divide(self):
-        assert 2 == calculator.divide(16, 8)
-
-
-        
-# This is a new line that ends the file.
+    def test_div(self):
+        assert 3 == calculator.divide(15, 5)

@@ -17,7 +17,3 @@ def mulityply(a, b):
 
 def divide(a, b):
     return a / b
-
-
-    
-# This is a new line that ends the file.
