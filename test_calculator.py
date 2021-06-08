@@ -11,8 +11,8 @@ class TestCalculatorAPP:
     def test_subtract(self):
         assert 2 == calculator.subtract(4, 6)
 
-    def test_mul(self):
+    def test_mulityply(self):
         assert 12 == calculator.mulityply(3, 4)
 
-    def test_div(self):
+    def test_divide(self):
         assert 2 == calculator.divide(16, 8)
